@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <title> Shopify Challenge by Usman Arogundade</title>
+  <meta charset=utf-8/>
+  <link rel=stylesheet type=text/css href=main.css>
+</head>
+
+<body>
+  <div class="content">
+    <h1 class=page-title>Stay up to date with ecommerce trends with Shopify's newsletter</h1>
+    <h1 class=green-line> ___ </h1>
+    <h1 class=sub> Subscribe for free marketing tips </h1>
+    <form name="subscribe_form" onsubmit="ValidateEmail(document.subscribe_form.email);return false">
+
+      <div class="email_box">
+        <input type="text" name="email" placeholder="Email Address" />
+        <td class="value">
+
+          <select id="Interests" class="interest">
+                <option value="">Interested in....</option>
+                <option >Mens Clothing</option>
+                <option >Womens clothing</option>
+                <option >Software Development</option>
+                <option >Design</option>
+                <option >FrontEnd Development</option>
+                <option >BackEnd Development</option>
+                </select>
+        </td>
+        <p id="error_msg" class="error_msg">Please enter a valid email address</p>
+      </div>
+      <div class="submit_box">
+        <button type='submit' id='check'>Sign up now</button>
+      </div>
+    </form>
+
+    <p class="unsubscribe">Unsubscribe</p>
+  </div>
+</body>
+
+</html>
